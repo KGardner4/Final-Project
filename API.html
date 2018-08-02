@@ -1,16 +1,42 @@
 	<html>
 	<head>
 		
-		<link rel="stylesheet" type="text/css" href="style2.css"
+		<link rel="stylesheet" type="text/css" href="style2.css">
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		
 		<script src="script.js"></script>
 		
-		<body background="https://pmcvariety.files.wordpress.com/2016/05/nicki-minaj.jpg?w=1000">
+		<body background="http://blackpizza.com/wp-content/uploads/2015/01/black-kitz-cover.jpg">
 		
 		<title>Fashion API</title>	
-	
+	<style>
+			.parallax {
+    /* The image used */
+    background-image: url("http://blackpizza.com/wp-content/uploads/2015/01/black-kitz-cover.jpg");
+
+    /* Set a specific height */
+    min-height: 250px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallaxb {
+    /* The image used */
+    background-image: url("http://blackpizza.com/wp-content/uploads/2015/01/black-kitz-cover.jpg");
+
+    /* Set a specific height */
+    min-height: 200px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}</style>
 	</head>
 	
 		<ul>
@@ -21,11 +47,18 @@
 			<li><a href="Quiz.html">Style Quiz</a></li>
 			<li><a href="https://fashionista.com/2011/07/the-top-20-fashion-schools-in-the-united-states-the-fashionista-ranking">Search</a></li>
 		</ul>
-
-	<body>
-		<h1 style="background-color: #F1948A;"><br>Search your store!
-		<br><br></h1>
-		<input style="background-color: white;"></input><button id="API">Search</button>
 		
+	<body>
+		
+		<h1 style="background-color: white;"><br>Search FASHION!
+		<br><br></h1>
+		<input style="background-color: white;" id="search_input"></input><button id="API">Search</button>
+		<div class="parallaxb"></div>
+		
+		<div style="height:600px;background-color:black;font-size:12px">
+
+		<h1 id="fashion"></h1>
+		</div>
+		<div class="parallaxb"></div>
 	</body>
 	</html>

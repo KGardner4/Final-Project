@@ -42,4 +42,13 @@ li a:hover {
 
 body {
 	text-align: center;
+	background-repeat: no-repeat;
+	background-size: 2000px 1200px;
+}
+h5 {
+	font-family: Courier;
+	color: white
+}
+h4 {
+	color: red;
 }
