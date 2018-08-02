@@ -14,6 +14,32 @@ p {
 	font-size: 20px;
 }
 button {
-	background-color: BurlyWood;
+	background-color: LIGHTCORAL;
 	border-radius: 20px;
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #ff3434 ;
+}
+
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 22px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111111;
+}
+
+body {
+	text-align: center;
 }
